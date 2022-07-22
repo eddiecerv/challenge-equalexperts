@@ -1,0 +1,790 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Basic testing for a calculator Generate snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="app__bg"
+      >
+        <header
+          class="App-header"
+        >
+          <p
+            data-testid="title"
+          >
+            A simple calculator
+          </p>
+        </header>
+        <div
+          class="container"
+        >
+          <div
+            id="calculator__body"
+          >
+            <main
+              class="card shadow"
+            >
+              <div
+                class="card-body bg-secondary"
+              >
+                <div
+                  class="calculator__display"
+                >
+                  <div
+                    class="shadow-sm"
+                    style="padding: 10px; text-align: right; background-color: rgba(66, 135, 245, 0.6); margin-bottom: 10px; min-height: 65px;"
+                  >
+                    <span
+                      data-testid="displayText"
+                      style="font-size: 24px;"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="row"
+                >
+                  <div
+                    class="col-lg-3"
+                  >
+                    <button
+                      class="btn btn-outline-light"
+                      style="padding: 12px 20px 12px 20px; text-align: center; margin-bottom: 5px; margin-top: 5px; width: 100%;"
+                    >
+                      C
+                    </button>
+                  </div>
+                  <div
+                    class="col-lg-3"
+                  >
+                    <button
+                      class="btn btn-outline-light"
+                      style="padding: 12px 20px 12px 20px; text-align: center; margin-bottom: 5px; margin-top: 5px; width: 100%;"
+                    >
+                      CE
+                    </button>
+                  </div>
+                  <div
+                    class="col-lg-3"
+                  />
+                  <div
+                    class="col-lg-3"
+                  >
+                    <button
+                      class="btn btn-outline-light"
+                      style="padding: 12px 20px 12px 20px; text-align: center; margin-bottom: 5px; margin-top: 5px; width: 100%;"
+                    >
+                      /
+                    </button>
+                  </div>
+                </div>
+                <div
+                  class="row"
+                >
+                  <section
+                    class="col-9"
+                  >
+                    <div
+                      class="row"
+                    >
+                      <div
+                        class="col-lg-4"
+                      >
+                        <button
+                          class="btn btn-outline-light"
+                          style="padding: 12px 20px 12px 20px; text-align: center; margin-bottom: 5px; margin-top: 5px; width: 100%;"
+                        >
+                          7
+                        </button>
+                      </div>
+                      <div
+                        class="col-lg-4"
+                      >
+                        <button
+                          class="btn btn-outline-light"
+                          style="padding: 12px 20px 12px 20px; text-align: center; margin-bottom: 5px; margin-top: 5px; width: 100%;"
+                        >
+                          8
+                        </button>
+                      </div>
+                      <div
+                        class="col-lg-4"
+                      >
+                        <button
+                          class="btn btn-outline-light"
+                          style="padding: 12px 20px 12px 20px; text-align: center; margin-bottom: 5px; margin-top: 5px; width: 100%;"
+                        >
+                          9
+                        </button>
+                      </div>
+                      <div
+                        class="col-lg-4"
+                      >
+                        <button
+                          class="btn btn-outline-light"
+                          style="padding: 12px 20px 12px 20px; text-align: center; margin-bottom: 5px; margin-top: 5px; width: 100%;"
+                        >
+                          4
+                        </button>
+                      </div>
+                      <div
+                        class="col-lg-4"
+                      >
+                        <button
+                          class="btn btn-outline-light"
+                          style="padding: 12px 20px 12px 20px; text-align: center; margin-bottom: 5px; margin-top: 5px; width: 100%;"
+                        >
+                          5
+                        </button>
+                      </div>
+                      <div
+                        class="col-lg-4"
+                      >
+                        <button
+                          class="btn btn-outline-light"
+                          style="padding: 12px 20px 12px 20px; text-align: center; margin-bottom: 5px; margin-top: 5px; width: 100%;"
+                        >
+                          6
+                        </button>
+                      </div>
+                      <div
+                        class="col-lg-4"
+                      >
+                        <button
+                          class="btn btn-outline-light"
+                          style="padding: 12px 20px 12px 20px; text-align: center; margin-bottom: 5px; margin-top: 5px; width: 100%;"
+                        >
+                          1
+                        </button>
+                      </div>
+                      <div
+                        class="col-lg-4"
+                      >
+                        <button
+                          class="btn btn-outline-light"
+                          style="padding: 12px 20px 12px 20px; text-align: center; margin-bottom: 5px; margin-top: 5px; width: 100%;"
+                        >
+                          2
+                        </button>
+                      </div>
+                      <div
+                        class="col-lg-4"
+                      >
+                        <button
+                          class="btn btn-outline-light"
+                          style="padding: 12px 20px 12px 20px; text-align: center; margin-bottom: 5px; margin-top: 5px; width: 100%;"
+                        >
+                          3
+                        </button>
+                      </div>
+                      <div
+                        class="col-lg-4"
+                      />
+                      <div
+                        class="col-lg-4"
+                      >
+                        <button
+                          class="btn btn-outline-light"
+                          style="padding: 12px 20px 12px 20px; text-align: center; margin-bottom: 5px; margin-top: 5px; width: 100%;"
+                        >
+                          0
+                        </button>
+                      </div>
+                      <div
+                        class="col-lg-4"
+                      >
+                        <button
+                          class="btn btn-outline-light"
+                          style="padding: 12px 20px 12px 20px; text-align: center; margin-bottom: 5px; margin-top: 5px; width: 100%;"
+                        >
+                          .
+                        </button>
+                      </div>
+                    </div>
+                  </section>
+                  <aside
+                    class="col-3"
+                  >
+                    <div
+                      class="row"
+                    >
+                      <div
+                        class="col-lg-12"
+                      >
+                        <button
+                          class="btn btn-outline-light"
+                          style="padding: 12px 20px 12px 20px; text-align: center; margin-bottom: 5px; margin-top: 5px; width: 100%;"
+                        >
+                          *
+                        </button>
+                      </div>
+                      <div
+                        class="col-lg-12"
+                      >
+                        <button
+                          class="btn btn-outline-light"
+                          style="padding: 12px 20px 12px 20px; text-align: center; margin-bottom: 5px; margin-top: 5px; width: 100%;"
+                        >
+                          -
+                        </button>
+                      </div>
+                      <div
+                        class="col-lg-12"
+                      >
+                        <button
+                          class="btn btn-outline-light"
+                          style="padding: 12px 20px 12px 20px; text-align: center; margin-bottom: 5px; margin-top: 5px; width: 100%;"
+                        >
+                          +
+                        </button>
+                      </div>
+                      <div
+                        class="col-lg-12"
+                      >
+                        <button
+                          class="btn btn-outline-light"
+                          style="padding: 12px 20px 12px 20px; text-align: center; margin-bottom: 5px; margin-top: 5px; width: 100%;"
+                        >
+                          =
+                        </button>
+                      </div>
+                    </div>
+                  </aside>
+                </div>
+              </div>
+            </main>
+          </div>
+        </div>
+        <footer
+          class="text-warning"
+        >
+          <p>
+            <small>
+              Release Version 
+              <br />
+              <span
+                class="text-secondary"
+              >
+                v. 5b8d0fd276b6d288905ed2f63a934e057e8feca2
+              </span>
+            </small>
+          </p>
+          <p>
+            By Eduardo Vallecillo Cervantes
+          </p>
+        </footer>
+      </div>
+    </div>
+    <div>
+      <div
+        class="card-body bg-secondary"
+      >
+        <div
+          class="calculator__display"
+        >
+          <div
+            class="shadow-sm"
+            style="padding: 10px; text-align: right; background-color: rgba(66, 135, 245, 0.6); margin-bottom: 10px; min-height: 65px;"
+          >
+            <span
+              data-testid="displayText"
+              style="font-size: 24px;"
+            />
+          </div>
+        </div>
+        <div
+          class="row"
+        >
+          <div
+            class="col-lg-3"
+          >
+            <button
+              class="btn btn-outline-light"
+              style="padding: 12px 20px 12px 20px; text-align: center; margin-bottom: 5px; margin-top: 5px; width: 100%;"
+            >
+              C
+            </button>
+          </div>
+          <div
+            class="col-lg-3"
+          >
+            <button
+              class="btn btn-outline-light"
+              style="padding: 12px 20px 12px 20px; text-align: center; margin-bottom: 5px; margin-top: 5px; width: 100%;"
+            >
+              CE
+            </button>
+          </div>
+          <div
+            class="col-lg-3"
+          />
+          <div
+            class="col-lg-3"
+          >
+            <button
+              class="btn btn-outline-light"
+              style="padding: 12px 20px 12px 20px; text-align: center; margin-bottom: 5px; margin-top: 5px; width: 100%;"
+            >
+              /
+            </button>
+          </div>
+        </div>
+        <div
+          class="row"
+        >
+          <section
+            class="col-9"
+          >
+            <div
+              class="row"
+            >
+              <div
+                class="col-lg-4"
+              >
+                <button
+                  class="btn btn-outline-light"
+                  style="padding: 12px 20px 12px 20px; text-align: center; margin-bottom: 5px; margin-top: 5px; width: 100%;"
+                >
+                  7
+                </button>
+              </div>
+              <div
+                class="col-lg-4"
+              >
+                <button
+                  class="btn btn-outline-light"
+                  style="padding: 12px 20px 12px 20px; text-align: center; margin-bottom: 5px; margin-top: 5px; width: 100%;"
+                >
+                  8
+                </button>
+              </div>
+              <div
+                class="col-lg-4"
+              >
+                <button
+                  class="btn btn-outline-light"
+                  style="padding: 12px 20px 12px 20px; text-align: center; margin-bottom: 5px; margin-top: 5px; width: 100%;"
+                >
+                  9
+                </button>
+              </div>
+              <div
+                class="col-lg-4"
+              >
+                <button
+                  class="btn btn-outline-light"
+                  style="padding: 12px 20px 12px 20px; text-align: center; margin-bottom: 5px; margin-top: 5px; width: 100%;"
+                >
+                  4
+                </button>
+              </div>
+              <div
+                class="col-lg-4"
+              >
+                <button
+                  class="btn btn-outline-light"
+                  style="padding: 12px 20px 12px 20px; text-align: center; margin-bottom: 5px; margin-top: 5px; width: 100%;"
+                >
+                  5
+                </button>
+              </div>
+              <div
+                class="col-lg-4"
+              >
+                <button
+                  class="btn btn-outline-light"
+                  style="padding: 12px 20px 12px 20px; text-align: center; margin-bottom: 5px; margin-top: 5px; width: 100%;"
+                >
+                  6
+                </button>
+              </div>
+              <div
+                class="col-lg-4"
+              >
+                <button
+                  class="btn btn-outline-light"
+                  style="padding: 12px 20px 12px 20px; text-align: center; margin-bottom: 5px; margin-top: 5px; width: 100%;"
+                >
+                  1
+                </button>
+              </div>
+              <div
+                class="col-lg-4"
+              >
+                <button
+                  class="btn btn-outline-light"
+                  style="padding: 12px 20px 12px 20px; text-align: center; margin-bottom: 5px; margin-top: 5px; width: 100%;"
+                >
+                  2
+                </button>
+              </div>
+              <div
+                class="col-lg-4"
+              >
+                <button
+                  class="btn btn-outline-light"
+                  style="padding: 12px 20px 12px 20px; text-align: center; margin-bottom: 5px; margin-top: 5px; width: 100%;"
+                >
+                  3
+                </button>
+              </div>
+              <div
+                class="col-lg-4"
+              />
+              <div
+                class="col-lg-4"
+              >
+                <button
+                  class="btn btn-outline-light"
+                  style="padding: 12px 20px 12px 20px; text-align: center; margin-bottom: 5px; margin-top: 5px; width: 100%;"
+                >
+                  0
+                </button>
+              </div>
+              <div
+                class="col-lg-4"
+              >
+                <button
+                  class="btn btn-outline-light"
+                  style="padding: 12px 20px 12px 20px; text-align: center; margin-bottom: 5px; margin-top: 5px; width: 100%;"
+                >
+                  .
+                </button>
+              </div>
+            </div>
+          </section>
+          <aside
+            class="col-3"
+          >
+            <div
+              class="row"
+            >
+              <div
+                class="col-lg-12"
+              >
+                <button
+                  class="btn btn-outline-light"
+                  style="padding: 12px 20px 12px 20px; text-align: center; margin-bottom: 5px; margin-top: 5px; width: 100%;"
+                >
+                  *
+                </button>
+              </div>
+              <div
+                class="col-lg-12"
+              >
+                <button
+                  class="btn btn-outline-light"
+                  style="padding: 12px 20px 12px 20px; text-align: center; margin-bottom: 5px; margin-top: 5px; width: 100%;"
+                >
+                  -
+                </button>
+              </div>
+              <div
+                class="col-lg-12"
+              >
+                <button
+                  class="btn btn-outline-light"
+                  style="padding: 12px 20px 12px 20px; text-align: center; margin-bottom: 5px; margin-top: 5px; width: 100%;"
+                >
+                  +
+                </button>
+              </div>
+              <div
+                class="col-lg-12"
+              >
+                <button
+                  class="btn btn-outline-light"
+                  style="padding: 12px 20px 12px 20px; text-align: center; margin-bottom: 5px; margin-top: 5px; width: 100%;"
+                >
+                  =
+                </button>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="card-body bg-secondary"
+    >
+      <div
+        class="calculator__display"
+      >
+        <div
+          class="shadow-sm"
+          style="padding: 10px; text-align: right; background-color: rgba(66, 135, 245, 0.6); margin-bottom: 10px; min-height: 65px;"
+        >
+          <span
+            data-testid="displayText"
+            style="font-size: 24px;"
+          />
+        </div>
+      </div>
+      <div
+        class="row"
+      >
+        <div
+          class="col-lg-3"
+        >
+          <button
+            class="btn btn-outline-light"
+            style="padding: 12px 20px 12px 20px; text-align: center; margin-bottom: 5px; margin-top: 5px; width: 100%;"
+          >
+            C
+          </button>
+        </div>
+        <div
+          class="col-lg-3"
+        >
+          <button
+            class="btn btn-outline-light"
+            style="padding: 12px 20px 12px 20px; text-align: center; margin-bottom: 5px; margin-top: 5px; width: 100%;"
+          >
+            CE
+          </button>
+        </div>
+        <div
+          class="col-lg-3"
+        />
+        <div
+          class="col-lg-3"
+        >
+          <button
+            class="btn btn-outline-light"
+            style="padding: 12px 20px 12px 20px; text-align: center; margin-bottom: 5px; margin-top: 5px; width: 100%;"
+          >
+            /
+          </button>
+        </div>
+      </div>
+      <div
+        class="row"
+      >
+        <section
+          class="col-9"
+        >
+          <div
+            class="row"
+          >
+            <div
+              class="col-lg-4"
+            >
+              <button
+                class="btn btn-outline-light"
+                style="padding: 12px 20px 12px 20px; text-align: center; margin-bottom: 5px; margin-top: 5px; width: 100%;"
+              >
+                7
+              </button>
+            </div>
+            <div
+              class="col-lg-4"
+            >
+              <button
+                class="btn btn-outline-light"
+                style="padding: 12px 20px 12px 20px; text-align: center; margin-bottom: 5px; margin-top: 5px; width: 100%;"
+              >
+                8
+              </button>
+            </div>
+            <div
+              class="col-lg-4"
+            >
+              <button
+                class="btn btn-outline-light"
+                style="padding: 12px 20px 12px 20px; text-align: center; margin-bottom: 5px; margin-top: 5px; width: 100%;"
+              >
+                9
+              </button>
+            </div>
+            <div
+              class="col-lg-4"
+            >
+              <button
+                class="btn btn-outline-light"
+                style="padding: 12px 20px 12px 20px; text-align: center; margin-bottom: 5px; margin-top: 5px; width: 100%;"
+              >
+                4
+              </button>
+            </div>
+            <div
+              class="col-lg-4"
+            >
+              <button
+                class="btn btn-outline-light"
+                style="padding: 12px 20px 12px 20px; text-align: center; margin-bottom: 5px; margin-top: 5px; width: 100%;"
+              >
+                5
+              </button>
+            </div>
+            <div
+              class="col-lg-4"
+            >
+              <button
+                class="btn btn-outline-light"
+                style="padding: 12px 20px 12px 20px; text-align: center; margin-bottom: 5px; margin-top: 5px; width: 100%;"
+              >
+                6
+              </button>
+            </div>
+            <div
+              class="col-lg-4"
+            >
+              <button
+                class="btn btn-outline-light"
+                style="padding: 12px 20px 12px 20px; text-align: center; margin-bottom: 5px; margin-top: 5px; width: 100%;"
+              >
+                1
+              </button>
+            </div>
+            <div
+              class="col-lg-4"
+            >
+              <button
+                class="btn btn-outline-light"
+                style="padding: 12px 20px 12px 20px; text-align: center; margin-bottom: 5px; margin-top: 5px; width: 100%;"
+              >
+                2
+              </button>
+            </div>
+            <div
+              class="col-lg-4"
+            >
+              <button
+                class="btn btn-outline-light"
+                style="padding: 12px 20px 12px 20px; text-align: center; margin-bottom: 5px; margin-top: 5px; width: 100%;"
+              >
+                3
+              </button>
+            </div>
+            <div
+              class="col-lg-4"
+            />
+            <div
+              class="col-lg-4"
+            >
+              <button
+                class="btn btn-outline-light"
+                style="padding: 12px 20px 12px 20px; text-align: center; margin-bottom: 5px; margin-top: 5px; width: 100%;"
+              >
+                0
+              </button>
+            </div>
+            <div
+              class="col-lg-4"
+            >
+              <button
+                class="btn btn-outline-light"
+                style="padding: 12px 20px 12px 20px; text-align: center; margin-bottom: 5px; margin-top: 5px; width: 100%;"
+              >
+                .
+              </button>
+            </div>
+          </div>
+        </section>
+        <aside
+          class="col-3"
+        >
+          <div
+            class="row"
+          >
+            <div
+              class="col-lg-12"
+            >
+              <button
+                class="btn btn-outline-light"
+                style="padding: 12px 20px 12px 20px; text-align: center; margin-bottom: 5px; margin-top: 5px; width: 100%;"
+              >
+                *
+              </button>
+            </div>
+            <div
+              class="col-lg-12"
+            >
+              <button
+                class="btn btn-outline-light"
+                style="padding: 12px 20px 12px 20px; text-align: center; margin-bottom: 5px; margin-top: 5px; width: 100%;"
+              >
+                -
+              </button>
+            </div>
+            <div
+              class="col-lg-12"
+            >
+              <button
+                class="btn btn-outline-light"
+                style="padding: 12px 20px 12px 20px; text-align: center; margin-bottom: 5px; margin-top: 5px; width: 100%;"
+              >
+                +
+              </button>
+            </div>
+            <div
+              class="col-lg-12"
+            >
+              <button
+                class="btn btn-outline-light"
+                style="padding: 12px 20px 12px 20px; text-align: center; margin-bottom: 5px; margin-top: 5px; width: 100%;"
+              >
+                =
+              </button>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

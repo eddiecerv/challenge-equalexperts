@@ -91,7 +91,6 @@ describe('Basic testing for a calculator', () => {
     expect( !isNaN(calculatedValueText) ).toBe(true);
     
     act(() => {
-      //Clean screen
       cleanButton.click();
     })
 

@@ -4,10 +4,11 @@ export const Styles = {
             padding: 10, 
             textAlign: 'right', 
             backgroundColor: 'rgba(66, 135, 245, 0.6)',
-            marginBottom: 10
+            marginBottom: 10,
+            minHeight: 65
         },
         text: {
-            fontSize: 12
+            fontSize: 24
         }
     },
     Button: {

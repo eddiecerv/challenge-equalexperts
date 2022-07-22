@@ -15,12 +15,18 @@ const clearInfiteWarningMessage = (stateValue) => {
 export const calculatorSlice = createSlice({
   name: 'calculator',
   initialState: {
+    didSubmit: false,
     result: 0,
     value: "",
   },
   reducers: {
     add: (state, action) => {
       state.value = clearInfiteWarningMessage(state.value);
+      if(state.didSubmit) {
+        state.didSubmit = false;
+        state.value = "";
+      }
+
       if(state.value.length <= MAX_DISPLAY_CHAR_LENGTH)  {
           state.value += action.payload.toString()
       }
@@ -31,6 +37,7 @@ export const calculatorSlice = createSlice({
     },
     operate: (state, action) => {
       state.value = clearInfiteWarningMessage(state.value);
+      state.didSubmit = false;      
 
       if( !isNaN(state.value[state.value.length - 1]) ){
         state.value = doOperation(state.value);
@@ -46,7 +53,8 @@ export const calculatorSlice = createSlice({
     },
     submit: (state) => {
       state.value = clearInfiteWarningMessage(state.value);
-      state.value = doOperation(state.value)
+      state.value = doOperation(state.value);
+      state.didSubmit = true;
     },
   },
 })

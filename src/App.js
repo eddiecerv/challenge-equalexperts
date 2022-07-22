@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './shared/core/Header';
 import Main from './components/Main';
+import Footer from './shared/core/Footer';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
           <Main />
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

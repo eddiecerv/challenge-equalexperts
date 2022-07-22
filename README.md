@@ -1,65 +1,47 @@
-# Getting Started with Create React App
+# Equal Experts Challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### A simple calculator for an Equal Experts technical challenge.
 
-## Available Scripts
+[![ver](https://img.shields.io/badge/version-5b8d0fd276b6d288905ed2f63a934e057e8feca2-yellow.svg)](https://github.com/eddiecerv/challenge-equalexperts)
+## Setup
 
-In the project directory, you can run:
+To run this application you need install Node.js [https://nodejs.org/en/download/] https://nodejs.org/en/download/. 
 
-### `npm start`
+Also you need to install [https://git-scm.com/downloads] Git and a CLI to execute Node commands. You can install a bash CLI during git installation.
 
-Runs the app in the development mode.\
+After that you can clone this repository [git@github.com:eddiecerv/challenge-equalexperts.git] using the next command.
+
+> git clone git@github.com:eddiecerv/challenge-equalexperts.git
+
+Once you have cloned the repository in your local machine you can install all the dependencies with the next command.
+
+> npm install
+
+To run the code in your local environment in the development mode, you need to execute the next command:
+
+> npm start
+
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+If you want to edit the code, you can install any Code Editor as Visual Studio Code [https://code.visualstudio.com/download].
+
+## Testing
+If you want to run the Unit Test and generate the coverage before deployment, you can run the next command.
+> `npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+> `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
 ### Deployment
 

@@ -1,23 +1,33 @@
 import { render, screen } from '@testing-library/react';
 import { act } from 'react-dom/test-utils';
+import { Provider } from 'react-redux';
 import App from "../App";
+import Calculator from '../components/calculator';
 import { INFINITE_DIVIDE_INTO_ZERO_MESSAGE, operateNumbers } from '../functions/Events';
+import store from '../store';
 
 const setup = () => render(<App />);
 
 describe('Basic testing for a calculator', () => {
   beforeEach(() => {
-    act(() => {
-      setup();
-    })
+    setup();
   });
 
-  test('Render without crash', () => {  
+  it('Render without crash', () => {  
     const element = screen.getByTestId('title')
     expect(element.innerHTML).toEqual('A simple calculator')
   })
 
-  test('Verify if number buttons are displayed', () => {
+  it('Generate snapshot', () => {
+    const CalculatorMockComponent = render(
+      <Provider store={store}>
+        <Calculator />
+      </Provider>
+    );
+    expect(CalculatorMockComponent).toMatchSnapshot();
+  })
+
+  it('Verify if number buttons are displayed', () => {
     const elements = screen.getAllByRole('button')
     const filteredNumberElements = elements.filter(el => !isNaN(el.innerHTML) ).map( el => parseInt(el.innerHTML) );
 
@@ -27,7 +37,7 @@ describe('Basic testing for a calculator', () => {
     
   })
 
-  test('Verify basic operations with an event function', () => {
+  it('Verify basic operations with an event function', () => {
     const sum = operateNumbers('5', '6', '+');
     expect(sum).toEqual(11);
 
@@ -41,12 +51,12 @@ describe('Basic testing for a calculator', () => {
     expect(div.toFixed(2)).toEqual("0.83");
   })
 
-  test('Try to divide into zero', () => {
+  it('Try to divide into zero', () => {
     const div = operateNumbers('5', '0', '/');
     expect(div).toEqual(INFINITE_DIVIDE_INTO_ZERO_MESSAGE);
   })
 
-  test('Try to put multiple operator symbols', () => {
+  it('Try to put multiple operator symbols', () => {
     const elements = screen.getAllByRole('button')
     const otherElements = ['C', 'CE', '.'];
     const numberButtons = elements.filter(el => !isNaN(el.innerHTML) );
@@ -68,7 +78,7 @@ describe('Basic testing for a calculator', () => {
     expect( isNaN(lastChar) ).toBe(true);
   })
 
-  test('Clean screen after click on C', () => {
+  it('Clean screen after click on C', () => {
     const elements = screen.getAllByRole('button')
     const otherElements = ['C', 'CE', '.'];
     const numberButtons = elements.filter(el => !isNaN(el.innerHTML) );
